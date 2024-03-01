@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="absolute top-0 w-full bg-black p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-white text-2xl font-bold px-4 p-2">Logo</a>
+        <ul class="flex gap-8">
+          <li><a href="#" class="text-white p-2">Home</a></li>
+          <li><a href="#" class="text-white p-2">Projects</a></li>
+          <li><a href="#" class="text-white p-2">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="h-screen flex justify-center items-center flex-col">
+      <h1 class="text-5xl font-semibold max-w-2xl text-center">
+        This is my portfolio! Checkout my new projects
+      </h1>
+      <p class="text-xl max-w-xl mt-4">
+        I create modern websites using Figma, Tailwind, etc... And im programming in python.
+      </p>
+
+      <div class="flex mt-8 gap-4 justify-center items-center">
+        <button class="bg-black text-white px-6 py-3 rounded-md">
+          Contact me
+        </button>
+        <button class="text-black px-2 py-2">My projects</button>
+      </div>
+    </div>
+    <section class="max-w-screen-2xl mx-auto py-8 px-4">
+      <h1 class="text-3xl font-semibold">My skills.</h1>
+      <p class="text-xl">
+        Check out my skills. I only work moderntechnologies.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <div class="flex flex-col items-center text-center bg-black/20 p-4 py-8">
+          <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 30L32.7 28.0467C32.287 27.4762 31.7039 27.0512 31.0344 26.8326C30.3649 26.6141 29.6433 26.6132 28.9733 26.8302C28.3032 27.0471 27.7191 27.4707 27.3047 28.0402C26.8903 28.6096 26.667 29.2957 26.6667 30H30ZM50 93.3333C38.5073 93.3333 27.4853 88.7679 19.3587 80.6413C11.2321 72.5147 6.66667 61.4927 6.66667 50H0C0 63.2608 5.26784 75.9785 14.6447 85.3553C24.0215 94.7322 36.7392 100 50 100V93.3333ZM93.3333 50C93.3333 55.6906 92.2125 61.3255 90.0348 66.5829C87.8571 71.8404 84.6652 76.6174 80.6413 80.6413C76.6174 84.6652 71.8404 87.8571 66.5829 90.0348C61.3255 92.2125 55.6906 93.3333 50 93.3333V100C63.2608 100 75.9785 94.7322 85.3553 85.3553C94.7322 75.9785 100 63.2608 100 50H93.3333ZM50 6.66667C55.6906 6.66667 61.3255 7.78752 66.5829 9.96522C71.8404 12.1429 76.6174 15.3348 80.6413 19.3587C84.6652 23.3826 87.8571 28.1596 90.0348 33.417C92.2125 38.6745 93.3333 44.3094 93.3333 50H100C100 36.7392 94.7322 24.0215 85.3553 14.6447C75.9785 5.26784 63.2608 0 50 0V6.66667ZM50 0C36.7392 0 24.0215 5.26784 14.6447 14.6447C5.26784 24.0215 0 36.7392 0 50H6.66667C6.66667 38.5073 11.2321 27.4853 19.3587 19.3587C27.4853 11.2321 38.5073 6.66667 50 6.66667V0ZM33.3333 80V30H26.6667V80H33.3333ZM27.3 31.9533L70.6333 91.9533L76.0333 88.0467L32.7 28.0467L27.3 31.9533ZM66.6667 26.6667V66.6667H73.3333V26.6667H66.6667Z" fill="black"/>
+            </svg>
+            
+          <h1 class="text-xl font-semibold">NextJS</h1>
+          <p>I use this framework beacause I know what is good</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center bg-black/20 p-4 py-8">
+          <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M36.1125 39.2375C34.6991 39.2375 33.2996 39.5159 31.9939 40.0567C30.6881 40.5976 29.5017 41.3904 28.5023 42.3897C27.5029 43.3891 26.7101 44.5756 26.1692 45.8814C25.6284 47.1871 25.35 48.5866 25.35 50C25.35 51.4133 25.6284 52.8128 26.1692 54.1186C26.7101 55.4244 27.5029 56.6108 28.5023 57.6102C29.5017 58.6096 30.6881 59.4024 31.9939 59.9432C33.2996 60.4841 34.6991 60.7625 36.1125 60.7625H46.875V50.2166C46.8733 50.0722 46.8733 49.9278 46.875 49.7833V39.2375H36.1125ZM46.875 32.9875H36.1125C33.2576 32.9875 30.5195 31.8534 28.5008 29.8346C26.482 27.8159 25.3479 25.0778 25.3479 22.2229C25.3479 19.368 26.482 16.6299 28.5008 14.6112C30.5195 12.5924 33.2576 11.4583 36.1125 11.4583H46.875V32.9875ZM53.125 11.4583V32.9875H63.8875C66.7058 32.932 69.3899 31.7735 71.3634 29.7608C73.3369 27.7481 74.4424 25.0417 74.4424 22.2229C74.4424 19.4041 73.3369 16.6977 71.3634 14.685C69.3899 12.6723 66.7058 11.5138 63.8875 11.4583H53.125ZM63.8875 39.2333C61.0625 39.233 58.3506 40.3434 56.337 42.3249C54.3235 44.3065 53.1698 47.0003 53.125 49.825V50.1708C53.1595 52.2916 53.8199 54.355 55.0233 56.1017C56.2266 57.8484 57.9193 59.2006 59.8887 59.9884C61.8581 60.7762 64.0163 60.9646 66.0924 60.5297C68.1684 60.0949 70.0697 59.0563 71.5574 57.5444C73.0451 56.0325 74.0529 54.1147 74.4542 52.0319C74.8555 49.9491 74.6324 47.7942 73.8129 45.8378C72.9934 43.8814 71.6141 42.2107 69.8482 41.0357C68.0823 39.8606 66.0086 39.2336 63.8875 39.2333ZM36.1125 67.0125C33.9829 67.0117 31.9008 67.6424 30.1297 68.825C28.3586 70.0075 26.978 71.6888 26.1624 73.656C25.3469 75.6233 25.1331 77.7883 25.548 79.8771C25.963 81.9659 26.9881 83.8847 28.4937 85.3909C29.9993 86.897 31.9177 87.9229 34.0063 88.3386C36.095 88.7544 38.26 88.5414 40.2276 87.7266C42.1952 86.9119 43.877 85.5319 45.0602 83.7612C46.2434 81.9906 46.875 79.9088 46.875 77.7792V67.0125H36.1125Z" fill="black"/>
+            </svg>
+            
+            
+          <h1 class="text-xl font-semibold">Figma</h1>
+          <p>I use this framework beacause I know what is good</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center bg-black/20 p-4 py-8">
+          <svg width="100" height="50" viewBox="0 0 100 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 0C36.65 0 28.35 5.54167 25 16.6667C30 11.125 35.85 9.04167 42.5 10.4167C46.3 11.2083 49.05 13.5 52.05 16.0417C56.95 20.2083 62.5 25 75 25C88.35 25 96.65 19.4583 100 8.33333C95 13.875 89.15 15.9583 82.5 14.5833C78.7 13.7917 76 11.5 72.95 8.95833C68.05 4.79167 62.5 0 50 0ZM25 25C11.65 25 3.35 30.5417 0 41.6667C5 36.125 10.85 34.0417 17.5 35.4167C21.3 36.2083 24 38.5 27.05 41.0417C31.95 45.2083 37.5 50 50 50C63.35 50 71.65 44.4583 75 33.3333C70 38.875 64.15 40.9583 57.5 39.5833C53.7 38.7917 51 36.5 47.95 33.9583C43.05 29.7917 37.5 25 25 25Z" fill="black"/>
+            </svg>
+            
+            
+          <h1 class="text-xl font-semibold">TailwindCSS</h1>
+          <p>I use this framework beacause I know what is good</p>
+        </div>
+      </div>
+      <div role="button" class="px-4 py-3 bg-black text-white w-fit mx-auto mt-8 rounded-md">More about my skills</div>
+    </section>
+  </body>
+</html>
